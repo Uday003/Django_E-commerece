@@ -1,11 +1,19 @@
-{% extends "shoppe/base.html" %} 
-{% block content %}
-        <legend>
-            Logged out successfully
-        </legend>
-        <div class="border-top pt-3">
-            <small class="text-muted">
-               <a class="ml-2" href={% url 'login' %}>Log In Again</a>
-            </small>
-        </div>
-{% endblock content %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend>
+        Logged out successfully
+    </legend>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+           <a class="ml-2" href={% url 'login' %}>Log In Again</a>
+        </small>
+    </div>
+</body>
+</html>
