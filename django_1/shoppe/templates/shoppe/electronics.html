@@ -1,0 +1,30 @@
+{% extends "shoppe/base.html" %} 
+{% block content %}
+ <h1>Hello</h1>
+ <legend>
+    Welcome to Electronics section
+ </legend><br>
+ <div>
+     Items
+ </div><br>
+ <br>
+ <div class="container" ">
+     <a class="content-section"href="{% url 'success' %}">Samsung S7 tab</a><br>
+     <br>
+     <h6>Worth:Rs.27,799</h6>
+     
+ </div><br>
+ <div class="container">
+    <a class="content-section"href="{% url 'success' %}">Apple 12 pro max</a><br>
+    <br>
+    <h6>Worth:Rs.1,19,999</h6>
+   
+ </div><br>
+ <div class="container">
+    <a class="content-section"href="{% url 'success' %}">Samsung S20 FE</a><br>
+    <br>
+    <h6>Worth:Rs.39,999</h6>
+   
+ </div>
+   
+{% endblock content %}

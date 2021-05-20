@@ -1,0 +1,30 @@
+{% extends "shoppe/base.html" %} 
+{% block content %}
+ <h1>Hello</h1>
+ <legend>
+    Welcome to Fashion section
+ </legend><br>
+ <div>
+     Items
+ </div><br>
+ <br>
+ <div class="container" ">
+     <a class="content-section"href="{% url 'success' %}">Denim Ml Jeans</a><br>
+     <br>
+     <h6>Worth:Rs.2,499</h6>
+     
+ </div><br>
+ <div class="container">
+    <a class="content-section"href="{% url 'success' %}">IIT Guwahati hoody</a><br>
+    <br>
+    <h6>Worth:Rs.999</h6>
+   
+ </div><br>
+ <div class="container">
+    <a class="content-section"href="{% url 'success' %}">Flying Machine Msize Tshirt</a><br>
+    <br>
+    <h6>Worth:Rs.3,999</h6>
+    
+ </div>
+   
+{% endblock content %}

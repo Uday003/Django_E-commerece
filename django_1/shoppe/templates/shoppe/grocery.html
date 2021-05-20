@@ -1,0 +1,31 @@
+{% extends "shoppe/base.html" %} 
+{% block content %}
+    <h1>Hello</h1>
+    <legend>
+        Welcome to Grocery section
+    </legend><br>
+    <div>
+    Items
+    </div>
+    <br>
+    <div class="container" >
+        <a class="content-section"href="{% url 'success' %}">Fresh kashmiri apple</a><br>
+        <br>
+        <h6>Worth:Rs.50/kg</h6>
+
+    </div><br>
+    <div class="container">
+        <a class="content-section"href="{% url 'success' %}">Red Capsicum</a><br>
+        <br>
+        <h6>Worth:Rs.39/kg</h6>
+
+    </div>
+    <div class="container"><br>
+        <br>
+        <a class="content-section"href="{% url 'success' %}">Oranges</a><br>
+        <br>
+        <h6>Worth:Rs.40/orange</h6>
+
+    </div>
+   
+{% endblock content %}
