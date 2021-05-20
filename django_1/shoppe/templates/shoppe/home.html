@@ -1,5 +1,22 @@
 {% extends "shoppe/base.html" %} 
 {% block content %}
-    <h1>Hello</h1>
+<h1>Hello</h1>
+ <legend>
+     Hola, Happy Shopping
+ </legend><br>
+ <div>
+     Categories
+ </div><br>
+ <div class="container" ">
+     <a class="content-section"href="{% url 'electronics' %}">Electronics</a>
+ </div><br>
+ <div class="container">
+    <a class="content-section"href="{% url 'grocery' %}">Grocery</a>
+</div><br>
+<div class="container">
+    <a class="content-section"href="{% url 'fashion' %}">Fashion</a>
+</div>
+   
 {% endblock content %}
+
 
